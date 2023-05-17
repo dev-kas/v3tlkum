@@ -14,7 +14,7 @@ export default async function ConversationsLayout({
   return (
     // @ts-expect-error Server Component
     <Sidebar>
-      <div className="h-full">
+      <div className="h-full dark:bg-black">
         <ConversationList 
           users={users} 
           title="Messages" 

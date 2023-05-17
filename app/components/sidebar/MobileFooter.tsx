@@ -23,7 +23,9 @@ const MobileFooter = () => {
         flex 
         items-center 
         bg-white 
-        border-t-[1px] 
+        dark:bg-black
+        -DELETE-border-t-[1px] 
+        -DELETE-border-red
         lg:hidden
       "
     >

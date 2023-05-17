@@ -43,9 +43,10 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
     <div 
       className="
         bg-white 
+        dark:bg-black
         w-full 
         flex 
-        border-b-[1px] 
+        -DELETE-border-b-[1px] 
         sm:px-4 
         py-3 
         px-4 
@@ -62,7 +63,9 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
             lg:hidden 
             block 
             text-sky-500 
+            dark:text-blue-500 
             hover:text-sky-600 
+            dark:hover:text-blue-400 
             transition 
             cursor-pointer
           "
@@ -75,7 +78,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
           <Avatar user={otherUser} />
         )}
         <div className="flex flex-col">
-          <div>{conversation.name || otherUser.name}</div>
+          <div className='dark:text-white text-black'>{conversation.name || otherUser.name}</div>
           <div className="text-sm font-light text-neutral-500">
             {statusText}
           </div>
@@ -86,8 +89,10 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
         onClick={() => setDrawerOpen(true)}
         className="
           text-sky-500
+          dark:text-blue-500
           cursor-pointer
           hover:text-sky-600
+          dark:hover:text-blue-400
           transition
         "
       />

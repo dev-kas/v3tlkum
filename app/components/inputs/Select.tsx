@@ -1,5 +1,6 @@
 'use client';
 
+import clsx from 'clsx';
 import ReactSelect from 'react-select'
 
 interface SelectProps {
@@ -26,6 +27,7 @@ const Select: React.FC<SelectProps> = ({
           font-medium 
           leading-6 
           text-gray-900
+          dark:text-gray-100
         "
       >
         {label}
@@ -42,8 +44,11 @@ const Select: React.FC<SelectProps> = ({
           menuPortal: (base) => ({ ...base, zIndex: 9999 })
         }}
         classNames={{
-          control: () => 'text-sm',
+          control: () => "text-sm"
         }}
+        className='react-select-container'
+        classNamePrefix="react-select"
+
       />
       </div>
     </div>

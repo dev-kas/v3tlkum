@@ -94,11 +94,12 @@ const ConversationList: React.FC<ConversationListProps> = ({
         lg:block
         overflow-y-auto 
         border-r 
-        border-gray-200 
+        border-gray-200
+        dark:border-gray-800 
       `, isOpen ? 'hidden' : 'block w-full left-0')}>
         <div className="px-5">
           <div className="flex justify-between mb-4 pt-4">
-            <div className="text-2xl font-bold text-neutral-800">
+            <div className="text-2xl font-bold text-neutral-800 dark:text-neutral-200">
               Messages
             </div>
             <div 
@@ -106,8 +107,10 @@ const ConversationList: React.FC<ConversationListProps> = ({
               className="
                 rounded-full 
                 p-2 
-                bg-gray-100 
-                text-gray-600 
+                bg-gray-100
+                dark:bg-gray-900 
+                text-gray-600
+                dark:text-gray-400 
                 cursor-pointer 
                 hover:opacity-75 
                 transition

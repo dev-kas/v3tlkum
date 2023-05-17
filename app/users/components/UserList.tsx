@@ -25,6 +25,9 @@ const UserList: React.FC<UserListProps> = ({
         overflow-y-auto 
         border-r 
         border-gray-200
+        dark:border-gray-800
+        bg-white
+        dark:bg-black
         block w-full left-0
       "
     >
@@ -35,6 +38,7 @@ const UserList: React.FC<UserListProps> = ({
               text-2xl 
               font-bold 
               text-neutral-800 
+              dark:text-neutral-200 
               py-4
             "
           >

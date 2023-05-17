@@ -40,6 +40,7 @@ const Avatar: React.FC<AvatarProps> = ({ user }) => {
             bg-green-500 
             ring-2 
             ring-white 
+            dark:ring-black
             top-0 
             right-0
             h-2 
