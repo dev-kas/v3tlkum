@@ -29,9 +29,9 @@ export const metadata = {
   "publisher": "GlitchieTheDev",
   // "metadataBase": "https://talkium.in/",
   "alternates": {
-      "canonical": "/",
+      "canonical": "https://talkium.in/",
       "languages": {
-          "en-US": "/en-US"
+          "en": "/"
       }
   },
   "openGraph": {
