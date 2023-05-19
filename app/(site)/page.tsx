@@ -24,7 +24,7 @@ const Auth = () => {
           src="/images/talkium@512x512-regular.png"
           alt="Logo"
         />
-        <h2 
+        <h1 
           className="
             mt-6 
             text-center 
@@ -36,7 +36,7 @@ const Auth = () => {
           "
           >
             Sign in to your account
-        </h2>
+        </h1>
       </div>
       <AuthForm />      
   </div>

@@ -4,10 +4,83 @@ import ActiveStatus from './components/ActiveStatus'
 import ToasterContext from './context/ToasterContext'
 import Head from 'next/head'
 
+// export const metadata = {
+//   title: 'Talkium // Your instant messaging solution',
+//   description: 'Talkium // Your instant messaging solution // By GlitchieTheDev',
+//   og:type: "website"
+// }
+
 export const metadata = {
-  title: 'Talkium // Your instant messaging solution',
-  description: 'Talkium // Your instant messaging solution // By GlitchieTheDev',
-}
+  "title": "Talkium // Your instant messaging solution",
+  "generator": "Talkium // Your instant messaging solution",
+  "applicationName": "Talkium",
+  "keywords": "Talkium",
+  "authors": [
+      {
+          "name": "GlitchieTheDev"
+      },
+      {
+          "name": "GlitchieTheDev",
+          "url": "https://talkium.in"
+      }
+  ],
+  "creator": "GlitchieTheDev",
+  "publisher": "GlitchieTheDev",
+  // "metadataBase": "https://talkium.in/",
+  "alternates": {
+      "canonical": "/",
+      "languages": {
+          "en-US": "/en-US"
+      }
+  },
+  "openGraph": {
+      "title": "Talkium // Your instant messaging solution",
+      "description": "Talkium // Your instant messaging solution",
+      "url": "https://talkium.in",
+      "siteName": "Talkium",
+      "images": [
+          {
+              "url": "/images/talkium@512x512-regular.png",
+              "width": 800,
+              "height": 600
+          }
+      ],
+      "locale": "en-US",
+      "type": "website"
+  },
+  "twitter": {
+      // "card": "Talkium",
+      "title": "Talkium // Your instant messaging solution",
+      "description": "Talkium // Your instant messaging solution",
+      "creator": "@GlitchieTheDev",
+      "images": [
+          "/images/talkium@512x512-regular.png"
+      ]
+  },
+  "robots": {
+      "index": true,
+      "follow": true,
+      "nocache": true,
+      "googleBot": {
+          "index": true,
+          "follow": false,
+          "noimageindex": true,
+          "max-video-preview": -1,
+          "max-image-preview": "large",
+          "max-snippet": -1
+      }
+  },
+  "icons": {
+      "icon": "/images/talkium@512x512-regular.png",
+      "shortcut": "/images/talkium@512x512-regular.png",
+      "apple": "/images/talkium@512x512-regular.png",
+      "other": {
+          "rel": "/images/talkium@512x512-regular.png",
+          "url": "/images/talkium@512x512-regular.png"
+      }
+  },
+  "manifest": "/manifest.json"
+};
 
 export default function RootLayout({
   children,
@@ -17,7 +90,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png" />
+        {/* <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png" />
         <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png" />
@@ -35,6 +108,18 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="title" content="Talkium // Your instant messaging solution" />
+        <meta name="description" content="Talkium // Your instant messaging solution" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="Talkium // Your instant messaging solution" />
+        <meta property="og:description" content="Talkium // Your instant messaging solution" />
+        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:title" content="Talkium // Your instant messaging solution" />
+        <meta property="twitter:description" content="Talkium // Your instant messaging solution" />
+        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" /> */}
       </Head>
       <body>
         <AuthContext>
