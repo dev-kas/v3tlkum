@@ -12,10 +12,10 @@ import Head from 'next/head'
 
 export const metadata = {
   "title": "Talkium // Your instant messaging solution",
-  "description": "Talkium, developed by the dedicated GlitchieTheDev, is a free instant messaging service that brings people from around the world together. This user-friendly communication tool offers a seamless, cross-platform experience, supporting text-based chats for both private one-on-one conversations and group discussions. Secure and reliable, Talkium connects friends, team members, or anyone within its global community, making communication easy and accessible for all. Although voice and video chat are not currently available, Talkium's focus on text-based messaging ensures a streamlined and efficient chatting experience.",
+  "description": "Talkium is a free instant messaging service that connects people globally. Developed by GlitchieTheDev, this user-friendly communication tool offers a seamless, cross-platform experience for private and group text-based chats. Secure and reliable, Talkium provides easy and accessible communication for friends, team members, and its global community. While Talkium does not currently offer voice or video chat, its focus on text-based messaging ensures a streamlined and efficient chatting experience.",
   "generator": "Talkium // Your instant messaging solution",
   "applicationName": "Talkium",
-  "keywords": "Talkium, Talkium Instant Messenger, Free Messaging Service, Online Chat Platform, Real-time Communication, Connect with Friends, Group Conversations, Secure Messaging App, Text, Chat, Global Chat Community, Cross-platform Messaging",
+  "keywords": "Talkium, GlitchieTheDev, Talkium Instant Messenger, Free Messaging Service, Online Chat Platform, Real-time Communication, Connect with Friends, Group Conversations, Secure Messaging App, Text, Chat, Global Chat Community, Cross-platform Messaging",
   "authors": [
       {
           "name": "GlitchieTheDev"
@@ -36,7 +36,7 @@ export const metadata = {
   },
   "openGraph": {
       "title": "Talkium // Your instant messaging solution",
-      "description": "Talkium, developed by the dedicated GlitchieTheDev, is a free instant messaging service that brings people from around the world together. This user-friendly communication tool offers a seamless, cross-platform experience, supporting text-based chats for both private one-on-one conversations and group discussions. Secure and reliable, Talkium connects friends, team members, or anyone within its global community, making communication easy and accessible for all. Although voice and video chat are not currently available, Talkium's focus on text-based messaging ensures a streamlined and efficient chatting experience.",
+      "description": "Talkium is a free instant messaging service that connects people globally. Developed by GlitchieTheDev, this user-friendly communication tool offers a seamless, cross-platform experience for private and group text-based chats. Secure and reliable, Talkium provides easy and accessible communication for friends, team members, and its global community. While Talkium does not currently offer voice or video chat, its focus on text-based messaging ensures a streamlined and efficient chatting experience.",
       "url": "https://talkium.in",
       "siteName": "Talkium",
       "images": [
@@ -52,7 +52,7 @@ export const metadata = {
   "twitter": {
       // "card": "Talkium",
       "title": "Talkium // Your instant messaging solution",
-      "description": "Talkium, developed by the dedicated GlitchieTheDev, is a free instant messaging service that brings people from around the world together. This user-friendly communication tool offers a seamless, cross-platform experience, supporting text-based chats for both private one-on-one conversations and group discussions. Secure and reliable, Talkium connects friends, team members, or anyone within its global community, making communication easy and accessible for all. Although voice and video chat are not currently available, Talkium's focus on text-based messaging ensures a streamlined and efficient chatting experience.",
+      "description": "Talkium is a free instant messaging service that connects people globally. Developed by GlitchieTheDev, this user-friendly communication tool offers a seamless, cross-platform experience for private and group text-based chats. Secure and reliable, Talkium provides easy and accessible communication for friends, team members, and its global community. While Talkium does not currently offer voice or video chat, its focus on text-based messaging ensures a streamlined and efficient chatting experience.",
       "creator": "@GlitchieTheDev",
       "images": [
           "/images/talkium@512x512-regular.png"
@@ -61,7 +61,6 @@ export const metadata = {
   "robots": {
       "index": true,
       "follow": true,
-      "nocache": true,
       "googleBot": {
           "index": true,
           "follow": false,
