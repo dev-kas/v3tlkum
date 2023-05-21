@@ -66,7 +66,7 @@ const AuthForm = () => {
           router.push('/conversations')
         }
       })
-      .catch(() => toast.error('Something went wrong!'))
+      .catch(() => toast.error('Account already exists witht his email!'))
       .finally(() => setIsLoading(false))
     }
 
