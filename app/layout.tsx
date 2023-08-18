@@ -22,14 +22,14 @@ export const metadata = {
       },
       {
           "name": "GlitchieTheDev",
-          "url": "https://talkium.in"
+          "url": "https://v3.talkium.in"
       }
   ],
   "creator": "GlitchieTheDev",
   "publisher": "GlitchieTheDev",
-  // "metadataBase": "https://talkium.in/",
+  // "metadataBase": "https://v3.talkium.in/",
   "alternates": {
-      "canonical": "https://talkium.in/",
+      "canonical": "https://v3.talkium.in/",
       "languages": {
           "en": "/"
       }
@@ -37,7 +37,7 @@ export const metadata = {
   "openGraph": {
       "title": "Talkium // Your instant messaging solution",
       "description": "Talkium, by GlitchieTheDev, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
-      "url": "https://talkium.in",
+      "url": "https://v3.talkium.in",
       "siteName": "Talkium",
       "images": [
           {
