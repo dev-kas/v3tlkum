@@ -17,7 +17,7 @@ export default async function ConversationsLayout({
       <div className="h-full dark:bg-black">
         <ConversationList 
           users={users} 
-          title="Talks" 
+          title="Messages" 
           initialItems={conversations}
         />
         {children}
