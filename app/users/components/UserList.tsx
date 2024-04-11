@@ -42,7 +42,7 @@ const UserList: React.FC<UserListProps> = ({
               py-4
             "
           >
-            Discover
+            Talkers
           </div>
         </div>
         {items.map((item) => (
