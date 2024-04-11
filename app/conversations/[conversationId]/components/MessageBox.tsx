@@ -50,7 +50,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
             {data.sender.name}
           </div>
           <div className="text-xs text-gray-400 dark:text-gray-600">
-            {format(new Date(data.createdAt), 'p @ dd-MM-yyyy')}
+            {format(new Date(data.createdAt), 'DD/MM/YYYY p')}
           </div>
         </div>
         <div className={message}>
