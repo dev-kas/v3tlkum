@@ -12,21 +12,21 @@ import Head from 'next/head'
 
 export const metadata = {
   "title": "Talkium // Your instant messaging solution",
-  "description": "Talkium, by GlitchieTheDev, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
+  "description": "Talkium, by KAS, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
   "generator": "Talkium // Your instant messaging solution",
   "applicationName": "Talkium",
-  "keywords": "Talkium, GlitchieTheDev, Talkium Instant Messenger, Free Messaging Service, Online Chat Platform, Real-time Communication, Connect with Friends, Group Conversations, Secure Messaging App, Text, Chat, Global Chat Community, Cross-platform Messaging",
+  "keywords": "Talkium, KAS, Talkium Instant Messenger, Free Messaging Service, Online Chat Platform, Real-time Communication, Connect with Friends, Group Conversations, Secure Messaging App, Text, Chat, Global Chat Community, Cross-platform Messaging",
   "authors": [
       {
-          "name": "GlitchieTheDev"
+          "name": "KAS"
       },
       {
-          "name": "GlitchieTheDev",
+          "name": "KAS",
           "url": "https://v3.talkium.in"
       }
   ],
-  "creator": "GlitchieTheDev",
-  "publisher": "GlitchieTheDev",
+  "creator": "KAS",
+  "publisher": "KAS",
   // "metadataBase": "https://v3.talkium.in/",
   "alternates": {
       "canonical": "https://v3.talkium.in/",
@@ -36,7 +36,7 @@ export const metadata = {
   },
   "openGraph": {
       "title": "Talkium // Your instant messaging solution",
-      "description": "Talkium, by GlitchieTheDev, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
+      "description": "Talkium, by KAS, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
       "url": "https://v3.talkium.in",
       "siteName": "Talkium",
       "images": [
@@ -52,8 +52,8 @@ export const metadata = {
   "twitter": {
       // "card": "Talkium",
       "title": "Talkium // Your instant messaging solution",
-      "description": "Talkium, by GlitchieTheDev, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
-      "creator": "@GlitchieTheDev",
+      "description": "Talkium, by KAS, is a free instant messaging service offering secure, cross-platform communication for private and group text-based chats, connecting people worldwide with ease.",
+      "creator": "@___KA5___",
       "images": [
           "/images/talkium@512x512-regular.png"
       ]
